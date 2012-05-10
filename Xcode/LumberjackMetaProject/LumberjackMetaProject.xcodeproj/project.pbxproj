@@ -1,0 +1,3140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A5A89F41155BAA7F00C13526 /* Everything */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A5A89F4C155BAAC300C13526 /* Build configuration list for PBXAggregateTarget "Everything" */;
+			buildPhases = (
+			);
+			dependencies = (
+				A53C3C8B155C262100B5A24D /* PBXTargetDependency */,
+				A53C3C5F155C1ECC00B5A24D /* PBXTargetDependency */,
+				A53C3C17155C1AF400B5A24D /* PBXTargetDependency */,
+				A53C3C0B155C1A7B00B5A24D /* PBXTargetDependency */,
+				A53C3B3A155C182A00B5A24D /* PBXTargetDependency */,
+				A53C3B18155C16F900B5A24D /* PBXTargetDependency */,
+				A53C3B0E155C169F00B5A24D /* PBXTargetDependency */,
+				A5A89FC4155BF08700C13526 /* PBXTargetDependency */,
+				A5A89FB6155BEF8100C13526 /* PBXTargetDependency */,
+				A53C3AF5155C15C500B5A24D /* PBXTargetDependency */,
+				A53C3B2B155C177700B5A24D /* PBXTargetDependency */,
+				A53C3C38155C1BE000B5A24D /* PBXTargetDependency */,
+				A53C3C48155C1C3000B5A24D /* PBXTargetDependency */,
+				A53C3C95155C268B00B5A24D /* PBXTargetDependency */,
+				A53C3CA5155C272700B5A24D /* PBXTargetDependency */,
+				A53C3CBF155C27D600B5A24D /* PBXTargetDependency */,
+			);
+			name = Everything;
+			productName = Everything;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		A53C3AF4155C15C500B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3AF1155C15BA00B5A24D;
+			remoteInfo = ContextFilter;
+		};
+		A53C3B0D155C169F00B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3B0A155C169C00B5A24D;
+			remoteInfo = CoreDataLogger;
+		};
+		A53C3B17155C16F900B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3B14155C16F600B5A24D;
+			remoteInfo = CustomFormatters;
+		};
+		A53C3B2A155C177700B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3B27155C177300B5A24D;
+			remoteInfo = CustomLogLevels;
+		};
+		A53C3B39155C182A00B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3B36155C182200B5A24D;
+			remoteInfo = DispatchQueueLogger;
+		};
+		A53C3C0A155C1A7B00B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3C07155C1A6900B5A24D /* FineGrainedLogging */;
+			remoteInfo = FineGrainedLogging;
+		};
+		A53C3C16155C1AF400B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3C13155C1ADF00B5A24D /* GlobalLogLevel */;
+			remoteInfo = GlobalLogLevel;
+		};
+		A53C3C37155C1BE000B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3C29155C1B5E00B5A24D /* LogFileCompressor */;
+			remoteInfo = LogFileCompressor;
+		};
+		A53C3C47155C1C3000B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3C3B155C1BFB00B5A24D /* LumberjackFramework */;
+			remoteInfo = LumberjackFramework;
+		};
+		A53C3C5E155C1ECC00B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3C5A155C1EBB00B5A24D /* LumberjackFrameworkMobile */;
+			remoteInfo = LumberjackFrameworkMobile;
+		};
+		A53C3C8A155C262100B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3C82155C25FB00B5A24D /* RollingTestMac */;
+			remoteInfo = RollingTestMac;
+		};
+		A53C3C94155C268B00B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3C90155C267900B5A24D /* SQLiteLogger */;
+			remoteInfo = SQLiteLogger;
+		};
+		A53C3CA4155C272700B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3CA0155C271800B5A24D /* Testing */;
+			remoteInfo = Testing;
+		};
+		A53C3CBE155C27D600B5A24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53C3CBA155C27C700B5A24D /* WebServerIPhone */;
+			remoteInfo = WebServerIPhone;
+		};
+		A5A89EAA155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CF2155BAA4500C13526 /* BenchmarkIPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = BenchmarkIPhone;
+		};
+		A5A89EB1155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89D0C155BAA4500C13526 /* BenchmarkMac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCC29DDC14730AA9005E8FD4;
+			remoteInfo = BenchmarkMac;
+		};
+		A5A89EB8155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89D12155BAA4500C13526 /* ContextFilter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = ContextFilter;
+		};
+		A5A89EBF155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89D35155BAA4500C13526 /* CoreDataLogger.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCE86C091343C419004FD85F;
+			remoteInfo = CoreDataLogger;
+		};
+		A5A89EC6155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89D3A155BAA4500C13526 /* CustomFormatters.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = CustomFormatters;
+		};
+		A5A89ECD155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89D4A155BAA4500C13526 /* CustomLogLevels.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = CustomLogLevels;
+		};
+		A5A89ED4155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89D64155BAA4500C13526 /* DispatchQueueLogger.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC25B766146A0294000F32F4;
+			remoteInfo = DispatchQueueLogger;
+		};
+		A5A89EDB155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89D6D155BAA4600C13526 /* FineGrainedLogging.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = FineGrainedLogging;
+		};
+		A5A89EE2155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89D80155BAA4600C13526 /* GlobalLogLevel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = GlobalLogLevel;
+		};
+		A5A89EE9155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89D92155BAA4600C13526 /* LogFileCompressor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = LogFileCompressor;
+		};
+		A5A89EF1155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89DAE155BAA4600C13526 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCB3185114EB418E001CFBEE;
+			remoteInfo = Lumberjack;
+		};
+		A5A89EF3155BAA4600C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89DAE155BAA4600C13526 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCB318CA14ED6C3B001CFBEE;
+			remoteInfo = FmwkTest;
+		};
+		A5A89EFB155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89DC1155BAA4600C13526 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC58E48814DC70CF006B16E2;
+			remoteInfo = Lumberjack;
+		};
+		A5A89EFD155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89DC1155BAA4600C13526 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC58E4C114DC8BE2006B16E2;
+			remoteInfo = LibTest;
+		};
+		A5A89F04155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89DDE155BAA4600C13526 /* OverflowTestMac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = OverflowTestMac;
+		};
+		A5A89F0B155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89DF4155BAA4600C13526 /* PerUserLogLevels.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC87A6F41525AEA3005A09B0;
+			remoteInfo = PerUserLogLevels;
+		};
+		A5A89F12155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89E01155BAA4600C13526 /* RollingTestMac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = RollingTestMac;
+		};
+		A5A89F19155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89E1D155BAA4600C13526 /* SQLiteLogger.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCFF742213427FF600F53777;
+			remoteInfo = SQLiteLogger;
+		};
+		A5A89F20155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89E2E155BAA4600C13526 /* NonArcTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCA67DEA146B531D003411EE;
+			remoteInfo = NonArcTest;
+		};
+		A5A89F27155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89E43155BAA4600C13526 /* RegisteredLoggingTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC7DC4E914154E4900601B40;
+			remoteInfo = RegisteredLoggingTest;
+		};
+		A5A89F2E155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89E59155BAA4600C13526 /* RegisteredLoggingTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC7DC52B1415523E00601B40;
+			remoteInfo = RegisteredLoggingTest;
+		};
+		A5A89F35155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89E65155BAA4600C13526 /* UniversalApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = UniversalApp;
+		};
+		A5A89F3C155BAA4700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89EA0155BAA4600C13526 /* WebServerIPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = WebServerIPhone;
+		};
+		A5A89FB5155BEF8100C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A89FB2155BEF7900C13526;
+			remoteInfo = BenchmarkIPhone;
+		};
+		A5A89FC3155BF08700C13526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A89CE2155BAA3100C13526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A89FC0155BF08300C13526;
+			remoteInfo = BenchmarkMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5A89CF1155BAA4500C13526 /* BenchmarkIPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BenchmarkIPhone-Info.plist"; sourceTree = "<group>"; };
+		A5A89CF2155BAA4500C13526 /* BenchmarkIPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BenchmarkIPhone.xcodeproj; sourceTree = "<group>"; };
+		A5A89CF5155BAA4500C13526 /* BenchmarkIPhone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenchmarkIPhone_Prefix.pch; sourceTree = "<group>"; };
+		A5A89CF6155BAA4500C13526 /* BenchmarkIPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BenchmarkIPhoneViewController.xib; sourceTree = "<group>"; };
+		A5A89CF8155BAA4500C13526 /* BenchmarkIPhoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenchmarkIPhoneAppDelegate.h; sourceTree = "<group>"; };
+		A5A89CF9155BAA4500C13526 /* BenchmarkIPhoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenchmarkIPhoneAppDelegate.m; sourceTree = "<group>"; };
+		A5A89CFA155BAA4500C13526 /* BenchmarkIPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenchmarkIPhoneViewController.h; sourceTree = "<group>"; };
+		A5A89CFB155BAA4500C13526 /* BenchmarkIPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenchmarkIPhoneViewController.m; sourceTree = "<group>"; };
+		A5A89CFC155BAA4500C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89CFD155BAA4500C13526 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		A5A89CFE155BAA4500C13526 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		A5A89D01155BAA4500C13526 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5A89D02155BAA4500C13526 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5A89D03155BAA4500C13526 /* BenchmarkMac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BenchmarkMac-Info.plist"; sourceTree = "<group>"; };
+		A5A89D04155BAA4500C13526 /* BenchmarkMac-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BenchmarkMac-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89D06155BAA4500C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5A89D08155BAA4500C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89D0A155BAA4500C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89D0B155BAA4500C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89D0C155BAA4500C13526 /* BenchmarkMac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BenchmarkMac.xcodeproj; sourceTree = "<group>"; };
+		A5A89D0F155BAA4500C13526 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		A5A89D11155BAA4500C13526 /* ContextFilter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ContextFilter-Info.plist"; sourceTree = "<group>"; };
+		A5A89D12155BAA4500C13526 /* ContextFilter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ContextFilter.xcodeproj; sourceTree = "<group>"; };
+		A5A89D15155BAA4500C13526 /* ContextFilter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilter_Prefix.pch; sourceTree = "<group>"; };
+		A5A89D16155BAA4500C13526 /* ContextFilterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterAppDelegate.h; sourceTree = "<group>"; };
+		A5A89D17155BAA4500C13526 /* ContextFilterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterAppDelegate.m; sourceTree = "<group>"; };
+		A5A89D19155BAA4500C13526 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89D1B155BAA4500C13526 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89D1C155BAA4500C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89D1D155BAA4500C13526 /* MyContextFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyContextFilter.h; sourceTree = "<group>"; };
+		A5A89D1E155BAA4500C13526 /* MyContextFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyContextFilter.m; sourceTree = "<group>"; };
+		A5A89D1F155BAA4500C13526 /* ThirdPartyFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartyFramework.h; sourceTree = "<group>"; };
+		A5A89D20155BAA4500C13526 /* ThirdPartyFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPartyFramework.m; sourceTree = "<group>"; };
+		A5A89D23155BAA4500C13526 /* CoreDataLogger-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoreDataLogger-Info.plist"; sourceTree = "<group>"; };
+		A5A89D24155BAA4500C13526 /* CoreDataLogger-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreDataLogger-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89D25155BAA4500C13526 /* CoreDataLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataLogger.h; sourceTree = "<group>"; };
+		A5A89D26155BAA4500C13526 /* CoreDataLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataLogger.m; sourceTree = "<group>"; };
+		A5A89D28155BAA4500C13526 /* CoreDataLoggerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataLoggerAppDelegate.h; sourceTree = "<group>"; };
+		A5A89D29155BAA4500C13526 /* CoreDataLoggerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataLoggerAppDelegate.m; sourceTree = "<group>"; };
+		A5A89D2B155BAA4500C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5A89D2D155BAA4500C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89D2F155BAA4500C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89D31155BAA4500C13526 /* CocoaBotLog.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = CocoaBotLog.xcdatamodel; sourceTree = "<group>"; };
+		A5A89D32155BAA4500C13526 /* LogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogEntry.h; sourceTree = "<group>"; };
+		A5A89D33155BAA4500C13526 /* LogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogEntry.m; sourceTree = "<group>"; };
+		A5A89D34155BAA4500C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89D35155BAA4500C13526 /* CoreDataLogger.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CoreDataLogger.xcodeproj; sourceTree = "<group>"; };
+		A5A89D39155BAA4500C13526 /* CustomFormatters-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CustomFormatters-Info.plist"; sourceTree = "<group>"; };
+		A5A89D3A155BAA4500C13526 /* CustomFormatters.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CustomFormatters.xcodeproj; sourceTree = "<group>"; };
+		A5A89D3D155BAA4500C13526 /* CustomFormatters_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormatters_Prefix.pch; sourceTree = "<group>"; };
+		A5A89D3E155BAA4500C13526 /* CustomFormattersAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormattersAppDelegate.h; sourceTree = "<group>"; };
+		A5A89D3F155BAA4500C13526 /* CustomFormattersAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormattersAppDelegate.m; sourceTree = "<group>"; };
+		A5A89D41155BAA4500C13526 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89D43155BAA4500C13526 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89D44155BAA4500C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89D45155BAA4500C13526 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		A5A89D46155BAA4500C13526 /* TestFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFormatter.h; sourceTree = "<group>"; };
+		A5A89D47155BAA4500C13526 /* TestFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFormatter.m; sourceTree = "<group>"; };
+		A5A89D49155BAA4500C13526 /* CustomLogLevels-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CustomLogLevels-Info.plist"; sourceTree = "<group>"; };
+		A5A89D4A155BAA4500C13526 /* CustomLogLevels.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CustomLogLevels.xcodeproj; sourceTree = "<group>"; };
+		A5A89D4D155BAA4500C13526 /* CustomLogLevels_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLogLevels_Prefix.pch; sourceTree = "<group>"; };
+		A5A89D4E155BAA4500C13526 /* CustomLogLevelsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLogLevelsAppDelegate.h; sourceTree = "<group>"; };
+		A5A89D4F155BAA4500C13526 /* CustomLogLevelsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLogLevelsAppDelegate.m; sourceTree = "<group>"; };
+		A5A89D51155BAA4500C13526 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89D53155BAA4500C13526 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89D54155BAA4500C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89D55155BAA4500C13526 /* MYLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYLog.h; sourceTree = "<group>"; };
+		A5A89D56155BAA4500C13526 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		A5A89D59155BAA4500C13526 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5A89D5A155BAA4500C13526 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5A89D5B155BAA4500C13526 /* DispatchQueueLogger-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DispatchQueueLogger-Info.plist"; sourceTree = "<group>"; };
+		A5A89D5C155BAA4500C13526 /* DispatchQueueLogger-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DispatchQueueLogger-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89D5E155BAA4500C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5A89D60155BAA4500C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89D62155BAA4500C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89D63155BAA4500C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89D64155BAA4500C13526 /* DispatchQueueLogger.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DispatchQueueLogger.xcodeproj; sourceTree = "<group>"; };
+		A5A89D69155BAA4600C13526 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89D6B155BAA4600C13526 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89D6C155BAA4600C13526 /* FineGrainedLogging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FineGrainedLogging-Info.plist"; sourceTree = "<group>"; };
+		A5A89D6D155BAA4600C13526 /* FineGrainedLogging.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FineGrainedLogging.xcodeproj; sourceTree = "<group>"; };
+		A5A89D70155BAA4600C13526 /* FineGrainedLogging_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FineGrainedLogging_Prefix.pch; sourceTree = "<group>"; };
+		A5A89D71155BAA4600C13526 /* FineGrainedLoggingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FineGrainedLoggingAppDelegate.h; sourceTree = "<group>"; };
+		A5A89D72155BAA4600C13526 /* FineGrainedLoggingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FineGrainedLoggingAppDelegate.m; sourceTree = "<group>"; };
+		A5A89D73155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89D74155BAA4600C13526 /* MYLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYLog.h; sourceTree = "<group>"; };
+		A5A89D75155BAA4600C13526 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		A5A89D76155BAA4600C13526 /* TimerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerOne.h; sourceTree = "<group>"; };
+		A5A89D77155BAA4600C13526 /* TimerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerOne.m; sourceTree = "<group>"; };
+		A5A89D78155BAA4600C13526 /* TimerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerTwo.h; sourceTree = "<group>"; };
+		A5A89D79155BAA4600C13526 /* TimerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerTwo.m; sourceTree = "<group>"; };
+		A5A89D7C155BAA4600C13526 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89D7E155BAA4600C13526 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89D7F155BAA4600C13526 /* GlobalLogLevel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GlobalLogLevel-Info.plist"; sourceTree = "<group>"; };
+		A5A89D80155BAA4600C13526 /* GlobalLogLevel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GlobalLogLevel.xcodeproj; sourceTree = "<group>"; };
+		A5A89D83155BAA4600C13526 /* GlobalLogLevel_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalLogLevel_Prefix.pch; sourceTree = "<group>"; };
+		A5A89D84155BAA4600C13526 /* GlobalLogLevelAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalLogLevelAppDelegate.h; sourceTree = "<group>"; };
+		A5A89D85155BAA4600C13526 /* GlobalLogLevelAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalLogLevelAppDelegate.m; sourceTree = "<group>"; };
+		A5A89D86155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89D87155BAA4600C13526 /* MyLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLogging.h; sourceTree = "<group>"; };
+		A5A89D88155BAA4600C13526 /* Stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stuff.h; sourceTree = "<group>"; };
+		A5A89D89155BAA4600C13526 /* Stuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stuff.m; sourceTree = "<group>"; };
+		A5A89D8B155BAA4600C13526 /* CompressingLogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompressingLogFileManager.h; sourceTree = "<group>"; };
+		A5A89D8C155BAA4600C13526 /* CompressingLogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompressingLogFileManager.m; sourceTree = "<group>"; };
+		A5A89D8E155BAA4600C13526 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89D90155BAA4600C13526 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89D91155BAA4600C13526 /* LogFileCompressor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LogFileCompressor-Info.plist"; sourceTree = "<group>"; };
+		A5A89D92155BAA4600C13526 /* LogFileCompressor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LogFileCompressor.xcodeproj; sourceTree = "<group>"; };
+		A5A89D95155BAA4600C13526 /* LogFileCompressor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogFileCompressor_Prefix.pch; sourceTree = "<group>"; };
+		A5A89D96155BAA4600C13526 /* LogFileCompressorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogFileCompressorAppDelegate.h; sourceTree = "<group>"; };
+		A5A89D97155BAA4600C13526 /* LogFileCompressorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogFileCompressorAppDelegate.m; sourceTree = "<group>"; };
+		A5A89D98155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89D99155BAA4600C13526 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		A5A89D9D155BAA4600C13526 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5A89D9E155BAA4600C13526 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5A89DA0155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5A89DA2155BAA4600C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89DA4155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89DA5155BAA4600C13526 /* FmwkTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FmwkTest-Info.plist"; sourceTree = "<group>"; };
+		A5A89DA6155BAA4600C13526 /* FmwkTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FmwkTest-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89DA7155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89DAA155BAA4600C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89DAB155BAA4600C13526 /* Lumberjack-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Lumberjack-Info.plist"; sourceTree = "<group>"; };
+		A5A89DAC155BAA4600C13526 /* Lumberjack-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Lumberjack-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89DAD155BAA4600C13526 /* Lumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lumberjack.h; sourceTree = "<group>"; };
+		A5A89DAE155BAA4600C13526 /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lumberjack.xcodeproj; sourceTree = "<group>"; };
+		A5A89DB3155BAA4600C13526 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5A89DB4155BAA4600C13526 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5A89DB6155BAA4600C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89DB8155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A5A89DB9155BAA4600C13526 /* LibTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LibTest-Info.plist"; sourceTree = "<group>"; };
+		A5A89DBA155BAA4600C13526 /* LibTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LibTest-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89DBB155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89DBC155BAA4600C13526 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5A89DBD155BAA4600C13526 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5A89DBF155BAA4600C13526 /* Lumberjack-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Lumberjack-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89DC0155BAA4600C13526 /* Lumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lumberjack.h; sourceTree = "<group>"; };
+		A5A89DC1155BAA4600C13526 /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lumberjack.xcodeproj; sourceTree = "<group>"; };
+		A5A89DD4155BAA4600C13526 /* LumberjackMetaProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LumberjackMetaProject.xcodeproj; sourceTree = "<group>"; };
+		A5A89DD9155BAA4600C13526 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89DDB155BAA4600C13526 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89DDC155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89DDD155BAA4600C13526 /* OverflowTestMac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OverflowTestMac-Info.plist"; sourceTree = "<group>"; };
+		A5A89DDE155BAA4600C13526 /* OverflowTestMac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = OverflowTestMac.xcodeproj; sourceTree = "<group>"; };
+		A5A89DE1155BAA4600C13526 /* OverflowTestMac_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverflowTestMac_Prefix.pch; sourceTree = "<group>"; };
+		A5A89DE2155BAA4600C13526 /* OverflowTestMacAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverflowTestMacAppDelegate.h; sourceTree = "<group>"; };
+		A5A89DE3155BAA4600C13526 /* OverflowTestMacAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverflowTestMacAppDelegate.m; sourceTree = "<group>"; };
+		A5A89DE4155BAA4600C13526 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		A5A89DE5155BAA4600C13526 /* SlowLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlowLogger.h; sourceTree = "<group>"; };
+		A5A89DE6155BAA4600C13526 /* SlowLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlowLogger.m; sourceTree = "<group>"; };
+		A5A89DE9155BAA4600C13526 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5A89DEA155BAA4600C13526 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5A89DEC155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5A89DEE155BAA4600C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89DF0155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89DF1155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89DF2155BAA4600C13526 /* PerUserLogLevels-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PerUserLogLevels-Info.plist"; sourceTree = "<group>"; };
+		A5A89DF3155BAA4600C13526 /* PerUserLogLevels-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PerUserLogLevels-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89DF4155BAA4600C13526 /* PerUserLogLevels.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PerUserLogLevels.xcodeproj; sourceTree = "<group>"; };
+		A5A89DF8155BAA4600C13526 /* LumberjackUser.bash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = LumberjackUser.bash; sourceTree = "<group>"; };
+		A5A89DFB155BAA4600C13526 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89DFD155BAA4600C13526 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89DFE155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89DFF155BAA4600C13526 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		A5A89E00155BAA4600C13526 /* RollingTestMac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RollingTestMac-Info.plist"; sourceTree = "<group>"; };
+		A5A89E01155BAA4600C13526 /* RollingTestMac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RollingTestMac.xcodeproj; sourceTree = "<group>"; };
+		A5A89E04155BAA4600C13526 /* RollingTestMac_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingTestMac_Prefix.pch; sourceTree = "<group>"; };
+		A5A89E05155BAA4600C13526 /* RollingTestMacAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingTestMacAppDelegate.h; sourceTree = "<group>"; };
+		A5A89E06155BAA4600C13526 /* RollingTestMacAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingTestMacAppDelegate.m; sourceTree = "<group>"; };
+		A5A89E09155BAA4600C13526 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A5A89E0A155BAA4600C13526 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A5A89E0B155BAA4600C13526 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A5A89E0C155BAA4600C13526 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A5A89E0D155BAA4600C13526 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A5A89E0E155BAA4600C13526 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A5A89E0F155BAA4600C13526 /* FMDBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBLogger.h; sourceTree = "<group>"; };
+		A5A89E10155BAA4600C13526 /* FMDBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBLogger.m; sourceTree = "<group>"; };
+		A5A89E13155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5A89E15155BAA4600C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89E17155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89E18155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89E19155BAA4600C13526 /* SQLiteLogger-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SQLiteLogger-Info.plist"; sourceTree = "<group>"; };
+		A5A89E1A155BAA4600C13526 /* SQLiteLogger-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SQLiteLogger-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89E1B155BAA4600C13526 /* SQLiteLoggerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteLoggerAppDelegate.h; sourceTree = "<group>"; };
+		A5A89E1C155BAA4600C13526 /* SQLiteLoggerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteLoggerAppDelegate.m; sourceTree = "<group>"; };
+		A5A89E1D155BAA4600C13526 /* SQLiteLogger.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SQLiteLogger.xcodeproj; sourceTree = "<group>"; };
+		A5A89E23155BAA4600C13526 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5A89E24155BAA4600C13526 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5A89E26155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5A89E28155BAA4600C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89E2A155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89E2B155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89E2C155BAA4600C13526 /* NonArcTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NonArcTest-Info.plist"; sourceTree = "<group>"; };
+		A5A89E2D155BAA4600C13526 /* NonArcTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NonArcTest-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89E2E155BAA4600C13526 /* NonArcTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = NonArcTest.xcodeproj; sourceTree = "<group>"; };
+		A5A89E35155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5A89E37155BAA4600C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89E39155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A89E3A155BAA4600C13526 /* Lions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lions.h; sourceTree = "<group>"; };
+		A5A89E3B155BAA4600C13526 /* Lions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lions.m; sourceTree = "<group>"; };
+		A5A89E3C155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89E3D155BAA4600C13526 /* RegisteredLoggingTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RegisteredLoggingTest-Info.plist"; sourceTree = "<group>"; };
+		A5A89E3E155BAA4600C13526 /* RegisteredLoggingTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RegisteredLoggingTest-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89E3F155BAA4600C13526 /* RegisteredLoggingTestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisteredLoggingTestAppDelegate.h; sourceTree = "<group>"; };
+		A5A89E40155BAA4600C13526 /* RegisteredLoggingTestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisteredLoggingTestAppDelegate.m; sourceTree = "<group>"; };
+		A5A89E41155BAA4600C13526 /* Tigers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tigers.h; sourceTree = "<group>"; };
+		A5A89E42155BAA4600C13526 /* Tigers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tigers.m; sourceTree = "<group>"; };
+		A5A89E43155BAA4600C13526 /* RegisteredLoggingTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RegisteredLoggingTest.xcodeproj; sourceTree = "<group>"; };
+		A5A89E49155BAA4600C13526 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A89E4B155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A5A89E4D155BAA4600C13526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RegisteredLoggingTestViewController.xib; sourceTree = "<group>"; };
+		A5A89E4E155BAA4600C13526 /* Lions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lions.h; sourceTree = "<group>"; };
+		A5A89E4F155BAA4600C13526 /* Lions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lions.m; sourceTree = "<group>"; };
+		A5A89E50155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89E51155BAA4600C13526 /* RegisteredLoggingTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RegisteredLoggingTest-Info.plist"; sourceTree = "<group>"; };
+		A5A89E52155BAA4600C13526 /* RegisteredLoggingTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RegisteredLoggingTest-Prefix.pch"; sourceTree = "<group>"; };
+		A5A89E53155BAA4600C13526 /* RegisteredLoggingTestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisteredLoggingTestAppDelegate.h; sourceTree = "<group>"; };
+		A5A89E54155BAA4600C13526 /* RegisteredLoggingTestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisteredLoggingTestAppDelegate.m; sourceTree = "<group>"; };
+		A5A89E55155BAA4600C13526 /* RegisteredLoggingTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisteredLoggingTestViewController.h; sourceTree = "<group>"; };
+		A5A89E56155BAA4600C13526 /* RegisteredLoggingTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisteredLoggingTestViewController.m; sourceTree = "<group>"; };
+		A5A89E57155BAA4600C13526 /* Tigers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tigers.h; sourceTree = "<group>"; };
+		A5A89E58155BAA4600C13526 /* Tigers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tigers.m; sourceTree = "<group>"; };
+		A5A89E59155BAA4600C13526 /* RegisteredLoggingTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RegisteredLoggingTest.xcodeproj; sourceTree = "<group>"; };
+		A5A89E5E155BAA4600C13526 /* UniversalAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversalAppAppDelegate.h; sourceTree = "<group>"; };
+		A5A89E5F155BAA4600C13526 /* UniversalAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversalAppAppDelegate.m; sourceTree = "<group>"; };
+		A5A89E60155BAA4600C13526 /* UniversalAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversalAppViewController.h; sourceTree = "<group>"; };
+		A5A89E61155BAA4600C13526 /* UniversalAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversalAppViewController.m; sourceTree = "<group>"; };
+		A5A89E62155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89E63155BAA4600C13526 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		A5A89E64155BAA4600C13526 /* UniversalApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UniversalApp-Info.plist"; sourceTree = "<group>"; };
+		A5A89E65155BAA4600C13526 /* UniversalApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = UniversalApp.xcodeproj; sourceTree = "<group>"; };
+		A5A89E68155BAA4600C13526 /* UniversalApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversalApp_Prefix.pch; sourceTree = "<group>"; };
+		A5A89E69155BAA4600C13526 /* UniversalAppViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversalAppViewController.xib; sourceTree = "<group>"; };
+		A5A89E6C155BAA4600C13526 /* MyHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHTTPConnection.h; sourceTree = "<group>"; };
+		A5A89E6D155BAA4600C13526 /* MyHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHTTPConnection.m; sourceTree = "<group>"; };
+		A5A89E6E155BAA4600C13526 /* WebServerIPhoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServerIPhoneAppDelegate.h; sourceTree = "<group>"; };
+		A5A89E6F155BAA4600C13526 /* WebServerIPhoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServerIPhoneAppDelegate.m; sourceTree = "<group>"; };
+		A5A89E70155BAA4600C13526 /* WebServerIPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServerIPhoneViewController.h; sourceTree = "<group>"; };
+		A5A89E71155BAA4600C13526 /* WebServerIPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServerIPhoneViewController.m; sourceTree = "<group>"; };
+		A5A89E72155BAA4600C13526 /* WebSocketLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketLogger.h; sourceTree = "<group>"; };
+		A5A89E73155BAA4600C13526 /* WebSocketLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocketLogger.m; sourceTree = "<group>"; };
+		A5A89E74155BAA4600C13526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A89E75155BAA4600C13526 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		A5A89E76155BAA4600C13526 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		A5A89E79155BAA4600C13526 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A5A89E7A155BAA4600C13526 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		A5A89E7D155BAA4600C13526 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		A5A89E7E155BAA4600C13526 /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		A5A89E7F155BAA4600C13526 /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		A5A89E80155BAA4600C13526 /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		A5A89E81155BAA4600C13526 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		A5A89E82155BAA4600C13526 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
+		A5A89E83155BAA4600C13526 /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		A5A89E84155BAA4600C13526 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		A5A89E85155BAA4600C13526 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		A5A89E86155BAA4600C13526 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		A5A89E87155BAA4600C13526 /* HTTPLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPLogging.h; sourceTree = "<group>"; };
+		A5A89E88155BAA4600C13526 /* HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMessage.h; sourceTree = "<group>"; };
+		A5A89E89155BAA4600C13526 /* HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPMessage.m; sourceTree = "<group>"; };
+		A5A89E8A155BAA4600C13526 /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		A5A89E8B155BAA4600C13526 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		A5A89E8C155BAA4600C13526 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		A5A89E8E155BAA4600C13526 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		A5A89E8F155BAA4600C13526 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		A5A89E90155BAA4600C13526 /* HTTPDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDataResponse.h; sourceTree = "<group>"; };
+		A5A89E91155BAA4600C13526 /* HTTPDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDataResponse.m; sourceTree = "<group>"; };
+		A5A89E92155BAA4600C13526 /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		A5A89E93155BAA4600C13526 /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
+		A5A89E94155BAA4600C13526 /* HTTPFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPFileResponse.h; sourceTree = "<group>"; };
+		A5A89E95155BAA4600C13526 /* HTTPFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
+		A5A89E96155BAA4600C13526 /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
+		A5A89E97155BAA4600C13526 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
+		A5A89E98155BAA4600C13526 /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
+		A5A89E99155BAA4600C13526 /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
+		A5A89E9B155BAA4600C13526 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		A5A89E9C155BAA4600C13526 /* jquery-1.4.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.4.2.min.js"; sourceTree = "<group>"; };
+		A5A89E9D155BAA4600C13526 /* socket.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = socket.html; sourceTree = "<group>"; };
+		A5A89E9E155BAA4600C13526 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		A5A89E9F155BAA4600C13526 /* WebServerIPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WebServerIPhone-Info.plist"; sourceTree = "<group>"; };
+		A5A89EA0155BAA4600C13526 /* WebServerIPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WebServerIPhone.xcodeproj; sourceTree = "<group>"; };
+		A5A89EA3155BAA4600C13526 /* WebServerIPhone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServerIPhone_Prefix.pch; sourceTree = "<group>"; };
+		A5A89EA4155BAA4600C13526 /* WebServerIPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebServerIPhoneViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A5A89CE0155BAA3100C13526 = {
+			isa = PBXGroup;
+			children = (
+				A5A89CF0155BAA4500C13526 /* BenchmarkIPhone */,
+				A5A89CFF155BAA4500C13526 /* BenchmarkMac */,
+				A5A89D10155BAA4500C13526 /* ContextFilter */,
+				A5A89D21155BAA4500C13526 /* CoreDataLogger */,
+				A5A89D38155BAA4500C13526 /* CustomFormatters */,
+				A5A89D48155BAA4500C13526 /* CustomLogLevels */,
+				A5A89D57155BAA4500C13526 /* DispatchQueueLogger */,
+				A5A89D67155BAA4600C13526 /* FineGrainedLogging */,
+				A5A89D7A155BAA4600C13526 /* GlobalLogLevel */,
+				A5A89D8A155BAA4600C13526 /* LogFileCompressor */,
+				A5A89D9A155BAA4600C13526 /* LumberjackFramework */,
+				A5A89DC4155BAA4600C13526 /* LumberjackMetaProject */,
+				A5A89DD7155BAA4600C13526 /* OverflowTestMac */,
+				A5A89DE7155BAA4600C13526 /* PerUserLogLevels */,
+				A5A89DF9155BAA4600C13526 /* RollingTestMac */,
+				A5A89E07155BAA4600C13526 /* SQLiteLogger */,
+				A5A89E20155BAA4600C13526 /* Testing */,
+				A5A89E5C155BAA4600C13526 /* UniversalApp */,
+				A5A89E6A155BAA4600C13526 /* WebServerIPhone */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A89CF0155BAA4500C13526 /* BenchmarkIPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89CF1155BAA4500C13526 /* BenchmarkIPhone-Info.plist */,
+				A5A89CF2155BAA4500C13526 /* BenchmarkIPhone.xcodeproj */,
+				A5A89CF5155BAA4500C13526 /* BenchmarkIPhone_Prefix.pch */,
+				A5A89CF6155BAA4500C13526 /* BenchmarkIPhoneViewController.xib */,
+				A5A89CF7155BAA4500C13526 /* Classes */,
+				A5A89CFC155BAA4500C13526 /* main.m */,
+				A5A89CFD155BAA4500C13526 /* MainWindow.xib */,
+				A5A89CFE155BAA4500C13526 /* ReadMe.txt */,
+			);
+			name = BenchmarkIPhone;
+			path = ../BenchmarkIPhone;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89CF3155BAA4500C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89EAB155BAA4600C13526 /* BenchmarkIPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89CF7155BAA4500C13526 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89CF8155BAA4500C13526 /* BenchmarkIPhoneAppDelegate.h */,
+				A5A89CF9155BAA4500C13526 /* BenchmarkIPhoneAppDelegate.m */,
+				A5A89CFA155BAA4500C13526 /* BenchmarkIPhoneViewController.h */,
+				A5A89CFB155BAA4500C13526 /* BenchmarkIPhoneViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A5A89CFF155BAA4500C13526 /* BenchmarkMac */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D00155BAA4500C13526 /* BenchmarkMac */,
+				A5A89D0C155BAA4500C13526 /* BenchmarkMac.xcodeproj */,
+				A5A89D0F155BAA4500C13526 /* ReadMe.txt */,
+			);
+			name = BenchmarkMac;
+			path = ../BenchmarkMac;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89D00155BAA4500C13526 /* BenchmarkMac */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D01155BAA4500C13526 /* AppDelegate.h */,
+				A5A89D02155BAA4500C13526 /* AppDelegate.m */,
+				A5A89D03155BAA4500C13526 /* BenchmarkMac-Info.plist */,
+				A5A89D04155BAA4500C13526 /* BenchmarkMac-Prefix.pch */,
+				A5A89D05155BAA4500C13526 /* Credits.rtf */,
+				A5A89D07155BAA4500C13526 /* InfoPlist.strings */,
+				A5A89D09155BAA4500C13526 /* MainMenu.xib */,
+				A5A89D0B155BAA4500C13526 /* main.m */,
+			);
+			path = BenchmarkMac;
+			sourceTree = "<group>";
+		};
+		A5A89D0D155BAA4500C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89EB2155BAA4600C13526 /* BenchmarkMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89D10155BAA4500C13526 /* ContextFilter */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D11155BAA4500C13526 /* ContextFilter-Info.plist */,
+				A5A89D12155BAA4500C13526 /* ContextFilter.xcodeproj */,
+				A5A89D15155BAA4500C13526 /* ContextFilter_Prefix.pch */,
+				A5A89D16155BAA4500C13526 /* ContextFilterAppDelegate.h */,
+				A5A89D17155BAA4500C13526 /* ContextFilterAppDelegate.m */,
+				A5A89D18155BAA4500C13526 /* InfoPlist.strings */,
+				A5A89D1A155BAA4500C13526 /* MainMenu.xib */,
+				A5A89D1C155BAA4500C13526 /* main.m */,
+				A5A89D1D155BAA4500C13526 /* MyContextFilter.h */,
+				A5A89D1E155BAA4500C13526 /* MyContextFilter.m */,
+				A5A89D1F155BAA4500C13526 /* ThirdPartyFramework.h */,
+				A5A89D20155BAA4500C13526 /* ThirdPartyFramework.m */,
+			);
+			name = ContextFilter;
+			path = ../ContextFilter;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89D13155BAA4500C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89EB9155BAA4600C13526 /* ContextFilter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89D21155BAA4500C13526 /* CoreDataLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D22155BAA4500C13526 /* CoreDataLogger */,
+				A5A89D35155BAA4500C13526 /* CoreDataLogger.xcodeproj */,
+			);
+			name = CoreDataLogger;
+			path = ../CoreDataLogger;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89D22155BAA4500C13526 /* CoreDataLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D23155BAA4500C13526 /* CoreDataLogger-Info.plist */,
+				A5A89D24155BAA4500C13526 /* CoreDataLogger-Prefix.pch */,
+				A5A89D25155BAA4500C13526 /* CoreDataLogger.h */,
+				A5A89D26155BAA4500C13526 /* CoreDataLogger.m */,
+				A5A89D27155BAA4500C13526 /* CoreDataLogger.xcdatamodeld */,
+				A5A89D28155BAA4500C13526 /* CoreDataLoggerAppDelegate.h */,
+				A5A89D29155BAA4500C13526 /* CoreDataLoggerAppDelegate.m */,
+				A5A89D2A155BAA4500C13526 /* Credits.rtf */,
+				A5A89D2C155BAA4500C13526 /* InfoPlist.strings */,
+				A5A89D2E155BAA4500C13526 /* MainMenu.xib */,
+				A5A89D30155BAA4500C13526 /* Log.xcdatamodeld */,
+				A5A89D32155BAA4500C13526 /* LogEntry.h */,
+				A5A89D33155BAA4500C13526 /* LogEntry.m */,
+				A5A89D34155BAA4500C13526 /* main.m */,
+			);
+			path = CoreDataLogger;
+			sourceTree = "<group>";
+		};
+		A5A89D36155BAA4500C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89EC0155BAA4600C13526 /* CoreDataLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89D38155BAA4500C13526 /* CustomFormatters */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D39155BAA4500C13526 /* CustomFormatters-Info.plist */,
+				A5A89D3A155BAA4500C13526 /* CustomFormatters.xcodeproj */,
+				A5A89D3D155BAA4500C13526 /* CustomFormatters_Prefix.pch */,
+				A5A89D3E155BAA4500C13526 /* CustomFormattersAppDelegate.h */,
+				A5A89D3F155BAA4500C13526 /* CustomFormattersAppDelegate.m */,
+				A5A89D40155BAA4500C13526 /* InfoPlist.strings */,
+				A5A89D42155BAA4500C13526 /* MainMenu.xib */,
+				A5A89D44155BAA4500C13526 /* main.m */,
+				A5A89D45155BAA4500C13526 /* ReadMe.txt */,
+				A5A89D46155BAA4500C13526 /* TestFormatter.h */,
+				A5A89D47155BAA4500C13526 /* TestFormatter.m */,
+			);
+			name = CustomFormatters;
+			path = ../CustomFormatters;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89D3B155BAA4500C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89EC7155BAA4600C13526 /* CustomFormatters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89D48155BAA4500C13526 /* CustomLogLevels */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D49155BAA4500C13526 /* CustomLogLevels-Info.plist */,
+				A5A89D4A155BAA4500C13526 /* CustomLogLevels.xcodeproj */,
+				A5A89D4D155BAA4500C13526 /* CustomLogLevels_Prefix.pch */,
+				A5A89D4E155BAA4500C13526 /* CustomLogLevelsAppDelegate.h */,
+				A5A89D4F155BAA4500C13526 /* CustomLogLevelsAppDelegate.m */,
+				A5A89D50155BAA4500C13526 /* InfoPlist.strings */,
+				A5A89D52155BAA4500C13526 /* MainMenu.xib */,
+				A5A89D54155BAA4500C13526 /* main.m */,
+				A5A89D55155BAA4500C13526 /* MYLog.h */,
+				A5A89D56155BAA4500C13526 /* ReadMe.txt */,
+			);
+			name = CustomLogLevels;
+			path = ../CustomLogLevels;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89D4B155BAA4500C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89ECE155BAA4600C13526 /* CustomLogLevels.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89D57155BAA4500C13526 /* DispatchQueueLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D58155BAA4500C13526 /* DispatchQueueLogger */,
+				A5A89D64155BAA4500C13526 /* DispatchQueueLogger.xcodeproj */,
+			);
+			name = DispatchQueueLogger;
+			path = ../DispatchQueueLogger;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89D58155BAA4500C13526 /* DispatchQueueLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D59155BAA4500C13526 /* AppDelegate.h */,
+				A5A89D5A155BAA4500C13526 /* AppDelegate.m */,
+				A5A89D5B155BAA4500C13526 /* DispatchQueueLogger-Info.plist */,
+				A5A89D5C155BAA4500C13526 /* DispatchQueueLogger-Prefix.pch */,
+				A5A89D5D155BAA4500C13526 /* Credits.rtf */,
+				A5A89D5F155BAA4500C13526 /* InfoPlist.strings */,
+				A5A89D61155BAA4500C13526 /* MainMenu.xib */,
+				A5A89D63155BAA4500C13526 /* main.m */,
+			);
+			path = DispatchQueueLogger;
+			sourceTree = "<group>";
+		};
+		A5A89D65155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89ED5155BAA4600C13526 /* DispatchQueueLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89D67155BAA4600C13526 /* FineGrainedLogging */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D68155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89D6A155BAA4600C13526 /* MainMenu.xib */,
+				A5A89D6C155BAA4600C13526 /* FineGrainedLogging-Info.plist */,
+				A5A89D6D155BAA4600C13526 /* FineGrainedLogging.xcodeproj */,
+				A5A89D70155BAA4600C13526 /* FineGrainedLogging_Prefix.pch */,
+				A5A89D71155BAA4600C13526 /* FineGrainedLoggingAppDelegate.h */,
+				A5A89D72155BAA4600C13526 /* FineGrainedLoggingAppDelegate.m */,
+				A5A89D73155BAA4600C13526 /* main.m */,
+				A5A89D74155BAA4600C13526 /* MYLog.h */,
+				A5A89D75155BAA4600C13526 /* ReadMe.txt */,
+				A5A89D76155BAA4600C13526 /* TimerOne.h */,
+				A5A89D77155BAA4600C13526 /* TimerOne.m */,
+				A5A89D78155BAA4600C13526 /* TimerTwo.h */,
+				A5A89D79155BAA4600C13526 /* TimerTwo.m */,
+			);
+			name = FineGrainedLogging;
+			path = ../FineGrainedLogging;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89D6E155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89EDC155BAA4600C13526 /* FineGrainedLogging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89D7A155BAA4600C13526 /* GlobalLogLevel */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D7B155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89D7D155BAA4600C13526 /* MainMenu.xib */,
+				A5A89D7F155BAA4600C13526 /* GlobalLogLevel-Info.plist */,
+				A5A89D80155BAA4600C13526 /* GlobalLogLevel.xcodeproj */,
+				A5A89D83155BAA4600C13526 /* GlobalLogLevel_Prefix.pch */,
+				A5A89D84155BAA4600C13526 /* GlobalLogLevelAppDelegate.h */,
+				A5A89D85155BAA4600C13526 /* GlobalLogLevelAppDelegate.m */,
+				A5A89D86155BAA4600C13526 /* main.m */,
+				A5A89D87155BAA4600C13526 /* MyLogging.h */,
+				A5A89D88155BAA4600C13526 /* Stuff.h */,
+				A5A89D89155BAA4600C13526 /* Stuff.m */,
+			);
+			name = GlobalLogLevel;
+			path = ../GlobalLogLevel;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89D81155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89EE3155BAA4600C13526 /* GlobalLogLevel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89D8A155BAA4600C13526 /* LogFileCompressor */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D8B155BAA4600C13526 /* CompressingLogFileManager.h */,
+				A5A89D8C155BAA4600C13526 /* CompressingLogFileManager.m */,
+				A5A89D8D155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89D8F155BAA4600C13526 /* MainMenu.xib */,
+				A5A89D91155BAA4600C13526 /* LogFileCompressor-Info.plist */,
+				A5A89D92155BAA4600C13526 /* LogFileCompressor.xcodeproj */,
+				A5A89D95155BAA4600C13526 /* LogFileCompressor_Prefix.pch */,
+				A5A89D96155BAA4600C13526 /* LogFileCompressorAppDelegate.h */,
+				A5A89D97155BAA4600C13526 /* LogFileCompressorAppDelegate.m */,
+				A5A89D98155BAA4600C13526 /* main.m */,
+				A5A89D99155BAA4600C13526 /* ReadMe.txt */,
+			);
+			name = LogFileCompressor;
+			path = ../LogFileCompressor;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89D93155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89EEA155BAA4600C13526 /* LogFileCompressor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89D9A155BAA4600C13526 /* LumberjackFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D9B155BAA4600C13526 /* Desktop */,
+				A5A89DB1155BAA4600C13526 /* Mobile */,
+			);
+			name = LumberjackFramework;
+			path = ../LumberjackFramework;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89D9B155BAA4600C13526 /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D9C155BAA4600C13526 /* FmwkTest */,
+				A5A89DA8155BAA4600C13526 /* Lumberjack */,
+				A5A89DAE155BAA4600C13526 /* Lumberjack.xcodeproj */,
+			);
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		A5A89D9C155BAA4600C13526 /* FmwkTest */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89D9D155BAA4600C13526 /* AppDelegate.h */,
+				A5A89D9E155BAA4600C13526 /* AppDelegate.m */,
+				A5A89D9F155BAA4600C13526 /* Credits.rtf */,
+				A5A89DA1155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89DA3155BAA4600C13526 /* MainMenu.xib */,
+				A5A89DA5155BAA4600C13526 /* FmwkTest-Info.plist */,
+				A5A89DA6155BAA4600C13526 /* FmwkTest-Prefix.pch */,
+				A5A89DA7155BAA4600C13526 /* main.m */,
+			);
+			path = FmwkTest;
+			sourceTree = "<group>";
+		};
+		A5A89DA8155BAA4600C13526 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89DA9155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89DAB155BAA4600C13526 /* Lumberjack-Info.plist */,
+				A5A89DAC155BAA4600C13526 /* Lumberjack-Prefix.pch */,
+				A5A89DAD155BAA4600C13526 /* Lumberjack.h */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		A5A89DAF155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89EF2155BAA4600C13526 /* Lumberjack.framework */,
+				A5A89EF4155BAA4600C13526 /* FmwkTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89DB1155BAA4600C13526 /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89DB2155BAA4600C13526 /* LibTest */,
+				A5A89DBE155BAA4600C13526 /* Lumberjack */,
+				A5A89DC1155BAA4600C13526 /* Lumberjack.xcodeproj */,
+			);
+			path = Mobile;
+			sourceTree = "<group>";
+		};
+		A5A89DB2155BAA4600C13526 /* LibTest */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89DB3155BAA4600C13526 /* AppDelegate.h */,
+				A5A89DB4155BAA4600C13526 /* AppDelegate.m */,
+				A5A89DB5155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89DB7155BAA4600C13526 /* ViewController.xib */,
+				A5A89DB9155BAA4600C13526 /* LibTest-Info.plist */,
+				A5A89DBA155BAA4600C13526 /* LibTest-Prefix.pch */,
+				A5A89DBB155BAA4600C13526 /* main.m */,
+				A5A89DBC155BAA4600C13526 /* ViewController.h */,
+				A5A89DBD155BAA4600C13526 /* ViewController.m */,
+			);
+			path = LibTest;
+			sourceTree = "<group>";
+		};
+		A5A89DBE155BAA4600C13526 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89DBF155BAA4600C13526 /* Lumberjack-Prefix.pch */,
+				A5A89DC0155BAA4600C13526 /* Lumberjack.h */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		A5A89DC2155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89EFC155BAA4700C13526 /* libLumberjack.a */,
+				A5A89EFE155BAA4700C13526 /* LibTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89DC4155BAA4600C13526 /* LumberjackMetaProject */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89DD4155BAA4600C13526 /* LumberjackMetaProject.xcodeproj */,
+			);
+			name = LumberjackMetaProject;
+			sourceTree = "<group>";
+		};
+		A5A89DD5155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89DD7155BAA4600C13526 /* OverflowTestMac */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89DD8155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89DDA155BAA4600C13526 /* MainMenu.xib */,
+				A5A89DDC155BAA4600C13526 /* main.m */,
+				A5A89DDD155BAA4600C13526 /* OverflowTestMac-Info.plist */,
+				A5A89DDE155BAA4600C13526 /* OverflowTestMac.xcodeproj */,
+				A5A89DE1155BAA4600C13526 /* OverflowTestMac_Prefix.pch */,
+				A5A89DE2155BAA4600C13526 /* OverflowTestMacAppDelegate.h */,
+				A5A89DE3155BAA4600C13526 /* OverflowTestMacAppDelegate.m */,
+				A5A89DE4155BAA4600C13526 /* ReadMe.txt */,
+				A5A89DE5155BAA4600C13526 /* SlowLogger.h */,
+				A5A89DE6155BAA4600C13526 /* SlowLogger.m */,
+			);
+			name = OverflowTestMac;
+			path = ../OverflowTestMac;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89DDF155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89F05155BAA4700C13526 /* OverflowTestMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89DE7155BAA4600C13526 /* PerUserLogLevels */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89DE8155BAA4600C13526 /* PerUserLogLevels */,
+				A5A89DF4155BAA4600C13526 /* PerUserLogLevels.xcodeproj */,
+				A5A89DF7155BAA4600C13526 /* Scripts */,
+			);
+			name = PerUserLogLevels;
+			path = ../PerUserLogLevels;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89DE8155BAA4600C13526 /* PerUserLogLevels */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89DE9155BAA4600C13526 /* AppDelegate.h */,
+				A5A89DEA155BAA4600C13526 /* AppDelegate.m */,
+				A5A89DEB155BAA4600C13526 /* Credits.rtf */,
+				A5A89DED155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89DEF155BAA4600C13526 /* MainMenu.xib */,
+				A5A89DF1155BAA4600C13526 /* main.m */,
+				A5A89DF2155BAA4600C13526 /* PerUserLogLevels-Info.plist */,
+				A5A89DF3155BAA4600C13526 /* PerUserLogLevels-Prefix.pch */,
+			);
+			path = PerUserLogLevels;
+			sourceTree = "<group>";
+		};
+		A5A89DF5155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89F0C155BAA4700C13526 /* PerUserLogLevels.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89DF7155BAA4600C13526 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89DF8155BAA4600C13526 /* LumberjackUser.bash */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		A5A89DF9155BAA4600C13526 /* RollingTestMac */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89DFA155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89DFC155BAA4600C13526 /* MainMenu.xib */,
+				A5A89DFE155BAA4600C13526 /* main.m */,
+				A5A89DFF155BAA4600C13526 /* ReadMe.txt */,
+				A5A89E00155BAA4600C13526 /* RollingTestMac-Info.plist */,
+				A5A89E01155BAA4600C13526 /* RollingTestMac.xcodeproj */,
+				A5A89E04155BAA4600C13526 /* RollingTestMac_Prefix.pch */,
+				A5A89E05155BAA4600C13526 /* RollingTestMacAppDelegate.h */,
+				A5A89E06155BAA4600C13526 /* RollingTestMacAppDelegate.m */,
+			);
+			name = RollingTestMac;
+			path = ../RollingTestMac;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89E02155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89F13155BAA4700C13526 /* RollingTestMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89E07155BAA4600C13526 /* SQLiteLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E08155BAA4600C13526 /* FMDB */,
+				A5A89E0F155BAA4600C13526 /* FMDBLogger.h */,
+				A5A89E10155BAA4600C13526 /* FMDBLogger.m */,
+				A5A89E11155BAA4600C13526 /* SQLiteLogger */,
+				A5A89E1D155BAA4600C13526 /* SQLiteLogger.xcodeproj */,
+			);
+			name = SQLiteLogger;
+			path = ../SQLiteLogger;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89E08155BAA4600C13526 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E09155BAA4600C13526 /* FMDatabase.h */,
+				A5A89E0A155BAA4600C13526 /* FMDatabase.m */,
+				A5A89E0B155BAA4600C13526 /* FMDatabaseAdditions.h */,
+				A5A89E0C155BAA4600C13526 /* FMDatabaseAdditions.m */,
+				A5A89E0D155BAA4600C13526 /* FMResultSet.h */,
+				A5A89E0E155BAA4600C13526 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A5A89E11155BAA4600C13526 /* SQLiteLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E12155BAA4600C13526 /* Credits.rtf */,
+				A5A89E14155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89E16155BAA4600C13526 /* MainMenu.xib */,
+				A5A89E18155BAA4600C13526 /* main.m */,
+				A5A89E19155BAA4600C13526 /* SQLiteLogger-Info.plist */,
+				A5A89E1A155BAA4600C13526 /* SQLiteLogger-Prefix.pch */,
+				A5A89E1B155BAA4600C13526 /* SQLiteLoggerAppDelegate.h */,
+				A5A89E1C155BAA4600C13526 /* SQLiteLoggerAppDelegate.m */,
+			);
+			path = SQLiteLogger;
+			sourceTree = "<group>";
+		};
+		A5A89E1E155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89F1A155BAA4700C13526 /* SQLiteLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89E20155BAA4600C13526 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E21155BAA4600C13526 /* NonArcTest */,
+				A5A89E31155BAA4600C13526 /* RegisteredDynamicLogging */,
+			);
+			name = Testing;
+			path = ../Testing;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89E21155BAA4600C13526 /* NonArcTest */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E22155BAA4600C13526 /* NonArcTest */,
+				A5A89E2E155BAA4600C13526 /* NonArcTest.xcodeproj */,
+			);
+			path = NonArcTest;
+			sourceTree = "<group>";
+		};
+		A5A89E22155BAA4600C13526 /* NonArcTest */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E23155BAA4600C13526 /* AppDelegate.h */,
+				A5A89E24155BAA4600C13526 /* AppDelegate.m */,
+				A5A89E25155BAA4600C13526 /* Credits.rtf */,
+				A5A89E27155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89E29155BAA4600C13526 /* MainMenu.xib */,
+				A5A89E2B155BAA4600C13526 /* main.m */,
+				A5A89E2C155BAA4600C13526 /* NonArcTest-Info.plist */,
+				A5A89E2D155BAA4600C13526 /* NonArcTest-Prefix.pch */,
+			);
+			path = NonArcTest;
+			sourceTree = "<group>";
+		};
+		A5A89E2F155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89F21155BAA4700C13526 /* NonArcTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89E31155BAA4600C13526 /* RegisteredDynamicLogging */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E32155BAA4600C13526 /* Desktop */,
+				A5A89E46155BAA4600C13526 /* Mobile */,
+			);
+			path = RegisteredDynamicLogging;
+			sourceTree = "<group>";
+		};
+		A5A89E32155BAA4600C13526 /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E33155BAA4600C13526 /* RegisteredLoggingTest */,
+				A5A89E43155BAA4600C13526 /* RegisteredLoggingTest.xcodeproj */,
+			);
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		A5A89E33155BAA4600C13526 /* RegisteredLoggingTest */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E34155BAA4600C13526 /* Credits.rtf */,
+				A5A89E36155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89E38155BAA4600C13526 /* MainMenu.xib */,
+				A5A89E3A155BAA4600C13526 /* Lions.h */,
+				A5A89E3B155BAA4600C13526 /* Lions.m */,
+				A5A89E3C155BAA4600C13526 /* main.m */,
+				A5A89E3D155BAA4600C13526 /* RegisteredLoggingTest-Info.plist */,
+				A5A89E3E155BAA4600C13526 /* RegisteredLoggingTest-Prefix.pch */,
+				A5A89E3F155BAA4600C13526 /* RegisteredLoggingTestAppDelegate.h */,
+				A5A89E40155BAA4600C13526 /* RegisteredLoggingTestAppDelegate.m */,
+				A5A89E41155BAA4600C13526 /* Tigers.h */,
+				A5A89E42155BAA4600C13526 /* Tigers.m */,
+			);
+			path = RegisteredLoggingTest;
+			sourceTree = "<group>";
+		};
+		A5A89E44155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89F28155BAA4700C13526 /* RegisteredLoggingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89E46155BAA4600C13526 /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E47155BAA4600C13526 /* RegisteredLoggingTest */,
+				A5A89E59155BAA4600C13526 /* RegisteredLoggingTest.xcodeproj */,
+			);
+			path = Mobile;
+			sourceTree = "<group>";
+		};
+		A5A89E47155BAA4600C13526 /* RegisteredLoggingTest */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E48155BAA4600C13526 /* InfoPlist.strings */,
+				A5A89E4A155BAA4600C13526 /* MainWindow.xib */,
+				A5A89E4C155BAA4600C13526 /* RegisteredLoggingTestViewController.xib */,
+				A5A89E4E155BAA4600C13526 /* Lions.h */,
+				A5A89E4F155BAA4600C13526 /* Lions.m */,
+				A5A89E50155BAA4600C13526 /* main.m */,
+				A5A89E51155BAA4600C13526 /* RegisteredLoggingTest-Info.plist */,
+				A5A89E52155BAA4600C13526 /* RegisteredLoggingTest-Prefix.pch */,
+				A5A89E53155BAA4600C13526 /* RegisteredLoggingTestAppDelegate.h */,
+				A5A89E54155BAA4600C13526 /* RegisteredLoggingTestAppDelegate.m */,
+				A5A89E55155BAA4600C13526 /* RegisteredLoggingTestViewController.h */,
+				A5A89E56155BAA4600C13526 /* RegisteredLoggingTestViewController.m */,
+				A5A89E57155BAA4600C13526 /* Tigers.h */,
+				A5A89E58155BAA4600C13526 /* Tigers.m */,
+			);
+			path = RegisteredLoggingTest;
+			sourceTree = "<group>";
+		};
+		A5A89E5A155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89F2F155BAA4700C13526 /* RegisteredLoggingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89E5C155BAA4600C13526 /* UniversalApp */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E5D155BAA4600C13526 /* Classes */,
+				A5A89E62155BAA4600C13526 /* main.m */,
+				A5A89E63155BAA4600C13526 /* MainWindow.xib */,
+				A5A89E64155BAA4600C13526 /* UniversalApp-Info.plist */,
+				A5A89E65155BAA4600C13526 /* UniversalApp.xcodeproj */,
+				A5A89E68155BAA4600C13526 /* UniversalApp_Prefix.pch */,
+				A5A89E69155BAA4600C13526 /* UniversalAppViewController.xib */,
+			);
+			name = UniversalApp;
+			path = ../UniversalApp;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89E5D155BAA4600C13526 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E5E155BAA4600C13526 /* UniversalAppAppDelegate.h */,
+				A5A89E5F155BAA4600C13526 /* UniversalAppAppDelegate.m */,
+				A5A89E60155BAA4600C13526 /* UniversalAppViewController.h */,
+				A5A89E61155BAA4600C13526 /* UniversalAppViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A5A89E66155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89F36155BAA4700C13526 /* UniversalApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A89E6A155BAA4600C13526 /* WebServerIPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E6B155BAA4600C13526 /* Classes */,
+				A5A89E74155BAA4600C13526 /* main.m */,
+				A5A89E75155BAA4600C13526 /* MainWindow.xib */,
+				A5A89E76155BAA4600C13526 /* ReadMe.txt */,
+				A5A89E77155BAA4600C13526 /* Vendor */,
+				A5A89E9A155BAA4600C13526 /* Web */,
+				A5A89E9F155BAA4600C13526 /* WebServerIPhone-Info.plist */,
+				A5A89EA0155BAA4600C13526 /* WebServerIPhone.xcodeproj */,
+				A5A89EA3155BAA4600C13526 /* WebServerIPhone_Prefix.pch */,
+				A5A89EA4155BAA4600C13526 /* WebServerIPhoneViewController.xib */,
+			);
+			name = WebServerIPhone;
+			path = ../WebServerIPhone;
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A89E6B155BAA4600C13526 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E6C155BAA4600C13526 /* MyHTTPConnection.h */,
+				A5A89E6D155BAA4600C13526 /* MyHTTPConnection.m */,
+				A5A89E6E155BAA4600C13526 /* WebServerIPhoneAppDelegate.h */,
+				A5A89E6F155BAA4600C13526 /* WebServerIPhoneAppDelegate.m */,
+				A5A89E70155BAA4600C13526 /* WebServerIPhoneViewController.h */,
+				A5A89E71155BAA4600C13526 /* WebServerIPhoneViewController.m */,
+				A5A89E72155BAA4600C13526 /* WebSocketLogger.h */,
+				A5A89E73155BAA4600C13526 /* WebSocketLogger.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A5A89E77155BAA4600C13526 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E78155BAA4600C13526 /* CocoaAsyncSocket */,
+				A5A89E7B155BAA4600C13526 /* CocoaHTTPServer */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		A5A89E78155BAA4600C13526 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E79155BAA4600C13526 /* GCDAsyncSocket.h */,
+				A5A89E7A155BAA4600C13526 /* GCDAsyncSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		A5A89E7B155BAA4600C13526 /* CocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E7C155BAA4600C13526 /* Categories */,
+				A5A89E83155BAA4600C13526 /* HTTPAuthenticationRequest.h */,
+				A5A89E84155BAA4600C13526 /* HTTPAuthenticationRequest.m */,
+				A5A89E85155BAA4600C13526 /* HTTPConnection.h */,
+				A5A89E86155BAA4600C13526 /* HTTPConnection.m */,
+				A5A89E87155BAA4600C13526 /* HTTPLogging.h */,
+				A5A89E88155BAA4600C13526 /* HTTPMessage.h */,
+				A5A89E89155BAA4600C13526 /* HTTPMessage.m */,
+				A5A89E8A155BAA4600C13526 /* HTTPResponse.h */,
+				A5A89E8B155BAA4600C13526 /* HTTPServer.h */,
+				A5A89E8C155BAA4600C13526 /* HTTPServer.m */,
+				A5A89E8D155BAA4600C13526 /* Responses */,
+				A5A89E98155BAA4600C13526 /* WebSocket.h */,
+				A5A89E99155BAA4600C13526 /* WebSocket.m */,
+			);
+			path = CocoaHTTPServer;
+			sourceTree = "<group>";
+		};
+		A5A89E7C155BAA4600C13526 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E7D155BAA4600C13526 /* DDData.h */,
+				A5A89E7E155BAA4600C13526 /* DDData.m */,
+				A5A89E7F155BAA4600C13526 /* DDNumber.h */,
+				A5A89E80155BAA4600C13526 /* DDNumber.m */,
+				A5A89E81155BAA4600C13526 /* DDRange.h */,
+				A5A89E82155BAA4600C13526 /* DDRange.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A5A89E8D155BAA4600C13526 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E8E155BAA4600C13526 /* HTTPAsyncFileResponse.h */,
+				A5A89E8F155BAA4600C13526 /* HTTPAsyncFileResponse.m */,
+				A5A89E90155BAA4600C13526 /* HTTPDataResponse.h */,
+				A5A89E91155BAA4600C13526 /* HTTPDataResponse.m */,
+				A5A89E92155BAA4600C13526 /* HTTPDynamicFileResponse.h */,
+				A5A89E93155BAA4600C13526 /* HTTPDynamicFileResponse.m */,
+				A5A89E94155BAA4600C13526 /* HTTPFileResponse.h */,
+				A5A89E95155BAA4600C13526 /* HTTPFileResponse.m */,
+				A5A89E96155BAA4600C13526 /* HTTPRedirectResponse.h */,
+				A5A89E97155BAA4600C13526 /* HTTPRedirectResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		A5A89E9A155BAA4600C13526 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89E9B155BAA4600C13526 /* index.html */,
+				A5A89E9C155BAA4600C13526 /* jquery-1.4.2.min.js */,
+				A5A89E9D155BAA4600C13526 /* socket.html */,
+				A5A89E9E155BAA4600C13526 /* styles.css */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		A5A89EA1155BAA4600C13526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A89F3D155BAA4700C13526 /* WebServerIPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A53C3AF1155C15BA00B5A24D /* ContextFilter */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3B07155C162800B5A24D /* Build configuration list for PBXLegacyTarget "ContextFilter" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../ContextFilter;
+			dependencies = (
+			);
+			name = ContextFilter;
+			passBuildSettingsInEnvironment = 1;
+			productName = ContextFilter;
+		};
+		A53C3B0A155C169C00B5A24D /* CoreDataLogger */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3B13155C16CB00B5A24D /* Build configuration list for PBXLegacyTarget "CoreDataLogger" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = CoreDataLogger;
+			passBuildSettingsInEnvironment = 1;
+			productName = CoreDataLogger;
+		};
+		A53C3B14155C16F600B5A24D /* CustomFormatters */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3B24155C171900B5A24D /* Build configuration list for PBXLegacyTarget "CustomFormatters" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../CustomFormatters;
+			dependencies = (
+			);
+			name = CustomFormatters;
+			passBuildSettingsInEnvironment = 1;
+			productName = CustomFormatters;
+		};
+		A53C3B27155C177300B5A24D /* CustomLogLevels */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3B33155C179D00B5A24D /* Build configuration list for PBXLegacyTarget "CustomLogLevels" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../CustomLogLevels;
+			dependencies = (
+			);
+			name = CustomLogLevels;
+			passBuildSettingsInEnvironment = 1;
+			productName = CustomLogLevels;
+		};
+		A53C3B36155C182200B5A24D /* DispatchQueueLogger */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3B3B155C185500B5A24D /* Build configuration list for PBXLegacyTarget "DispatchQueueLogger" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../DispatchQueueLogger;
+			dependencies = (
+			);
+			name = DispatchQueueLogger;
+			passBuildSettingsInEnvironment = 1;
+			productName = DispatchQueueLogger;
+		};
+		A53C3C07155C1A6900B5A24D /* FineGrainedLogging */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3C10155C1A9900B5A24D /* Build configuration list for PBXLegacyTarget "FineGrainedLogging" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../FineGrainedLogging;
+			dependencies = (
+			);
+			name = FineGrainedLogging;
+			passBuildSettingsInEnvironment = 1;
+			productName = FineGrainedLogging;
+		};
+		A53C3C13155C1ADF00B5A24D /* GlobalLogLevel */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3C26155C1B0D00B5A24D /* Build configuration list for PBXLegacyTarget "GlobalLogLevel" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../GlobalLogLevel;
+			dependencies = (
+			);
+			name = GlobalLogLevel;
+			passBuildSettingsInEnvironment = 1;
+			productName = GlobalLogLevel;
+		};
+		A53C3C29155C1B5E00B5A24D /* LogFileCompressor */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3C34155C1B7900B5A24D /* Build configuration list for PBXLegacyTarget "LogFileCompressor" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../LogFileCompressor;
+			dependencies = (
+			);
+			name = LogFileCompressor;
+			passBuildSettingsInEnvironment = 1;
+			productName = LogFileCompressor;
+		};
+		A53C3C3B155C1BFB00B5A24D /* LumberjackFrameworkDesktop */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3C3E155C1C0600B5A24D /* Build configuration list for PBXLegacyTarget "LumberjackFrameworkDesktop" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../LumberjackFramework/Desktop;
+			dependencies = (
+			);
+			name = LumberjackFrameworkDesktop;
+			passBuildSettingsInEnvironment = 1;
+			productName = LumberjackFramework;
+		};
+		A53C3C5A155C1EBB00B5A24D /* LumberjackFrameworkMobile */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3C5B155C1EBB00B5A24D /* Build configuration list for PBXLegacyTarget "LumberjackFrameworkMobile" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../LumberjackFramework/Mobile;
+			dependencies = (
+			);
+			name = LumberjackFrameworkMobile;
+			passBuildSettingsInEnvironment = 1;
+			productName = LumberjackFramework;
+		};
+		A53C3C68155C202E00B5A24D /* OverflowTestMac */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3C69155C202E00B5A24D /* Build configuration list for PBXLegacyTarget "OverflowTestMac" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../OverflowTestMac;
+			dependencies = (
+			);
+			name = OverflowTestMac;
+			passBuildSettingsInEnvironment = 1;
+			productName = LumberjackFramework;
+		};
+		A53C3C76155C215D00B5A24D /* PerUserLogLevels */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3C77155C215D00B5A24D /* Build configuration list for PBXLegacyTarget "PerUserLogLevels" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../PerUserLogLevels;
+			dependencies = (
+			);
+			name = PerUserLogLevels;
+			passBuildSettingsInEnvironment = 1;
+			productName = LumberjackFramework;
+		};
+		A53C3C82155C25FB00B5A24D /* RollingTestMac */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3C83155C25FB00B5A24D /* Build configuration list for PBXLegacyTarget "RollingTestMac" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../RollingTestMac;
+			dependencies = (
+			);
+			name = RollingTestMac;
+			passBuildSettingsInEnvironment = 1;
+			productName = LumberjackFramework;
+		};
+		A53C3C90155C267900B5A24D /* SQLiteLogger */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3C91155C267900B5A24D /* Build configuration list for PBXLegacyTarget "SQLiteLogger" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../SQLiteLogger;
+			dependencies = (
+			);
+			name = SQLiteLogger;
+			passBuildSettingsInEnvironment = 1;
+			productName = LumberjackFramework;
+		};
+		A53C3CA0155C271800B5A24D /* Testing */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3CA1155C271800B5A24D /* Build configuration list for PBXLegacyTarget "Testing" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../SQLiteLogger;
+			dependencies = (
+			);
+			name = Testing;
+			passBuildSettingsInEnvironment = 1;
+			productName = LumberjackFramework;
+		};
+		A53C3CB0155C278200B5A24D /* UniversalApp */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3CB1155C278200B5A24D /* Build configuration list for PBXLegacyTarget "UniversalApp" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../UniversalApp;
+			dependencies = (
+			);
+			name = UniversalApp;
+			passBuildSettingsInEnvironment = 1;
+			productName = LumberjackFramework;
+		};
+		A53C3CBA155C27C700B5A24D /* WebServerIPhone */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A53C3CBB155C27C700B5A24D /* Build configuration list for PBXLegacyTarget "WebServerIPhone" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../WebServerIPhone;
+			dependencies = (
+			);
+			name = WebServerIPhone;
+			passBuildSettingsInEnvironment = 1;
+			productName = LumberjackFramework;
+		};
+		A5A89FB2155BEF7900C13526 /* BenchmarkIPhone */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A5A89FBA155BEF9400C13526 /* Build configuration list for PBXLegacyTarget "BenchmarkIPhone" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../BenchmarkIPhone;
+			dependencies = (
+			);
+			name = BenchmarkIPhone;
+			passBuildSettingsInEnvironment = 1;
+			productName = BenchmarkIPhone;
+		};
+		A5A89FC0155BF08300C13526 /* BenchmarkMac */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = A5A89FC9155BF0D300C13526 /* Build configuration list for PBXLegacyTarget "BenchmarkMac" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/usr/bin/xcodebuild;
+			buildWorkingDirectory = ../BenchmarkMac;
+			dependencies = (
+			);
+			name = BenchmarkMac;
+			passBuildSettingsInEnvironment = 1;
+			productName = BenchmarkMac;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		A5A89CE2155BAA3100C13526 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A5A89CE5155BAA3100C13526 /* Build configuration list for PBXProject "LumberjackMetaProject" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = A5A89CE0155BAA3100C13526;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A5A89CF3155BAA4500C13526 /* Products */;
+					ProjectRef = A5A89CF2155BAA4500C13526 /* BenchmarkIPhone.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89D0D155BAA4500C13526 /* Products */;
+					ProjectRef = A5A89D0C155BAA4500C13526 /* BenchmarkMac.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89D13155BAA4500C13526 /* Products */;
+					ProjectRef = A5A89D12155BAA4500C13526 /* ContextFilter.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89D36155BAA4500C13526 /* Products */;
+					ProjectRef = A5A89D35155BAA4500C13526 /* CoreDataLogger.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89D3B155BAA4500C13526 /* Products */;
+					ProjectRef = A5A89D3A155BAA4500C13526 /* CustomFormatters.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89D4B155BAA4500C13526 /* Products */;
+					ProjectRef = A5A89D4A155BAA4500C13526 /* CustomLogLevels.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89D65155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89D64155BAA4500C13526 /* DispatchQueueLogger.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89D6E155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89D6D155BAA4600C13526 /* FineGrainedLogging.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89D81155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89D80155BAA4600C13526 /* GlobalLogLevel.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89D93155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89D92155BAA4600C13526 /* LogFileCompressor.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89DC2155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89DC1155BAA4600C13526 /* Lumberjack.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89DAF155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89DAE155BAA4600C13526 /* Lumberjack.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89DD5155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89DD4155BAA4600C13526 /* LumberjackMetaProject.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89E2F155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89E2E155BAA4600C13526 /* NonArcTest.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89DDF155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89DDE155BAA4600C13526 /* OverflowTestMac.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89DF5155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89DF4155BAA4600C13526 /* PerUserLogLevels.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89E5A155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89E59155BAA4600C13526 /* RegisteredLoggingTest.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89E44155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89E43155BAA4600C13526 /* RegisteredLoggingTest.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89E02155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89E01155BAA4600C13526 /* RollingTestMac.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89E1E155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89E1D155BAA4600C13526 /* SQLiteLogger.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89E66155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89E65155BAA4600C13526 /* UniversalApp.xcodeproj */;
+				},
+				{
+					ProductGroup = A5A89EA1155BAA4600C13526 /* Products */;
+					ProjectRef = A5A89EA0155BAA4600C13526 /* WebServerIPhone.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A5A89F41155BAA7F00C13526 /* Everything */,
+				A5A89FB2155BEF7900C13526 /* BenchmarkIPhone */,
+				A5A89FC0155BF08300C13526 /* BenchmarkMac */,
+				A53C3AF1155C15BA00B5A24D /* ContextFilter */,
+				A53C3B0A155C169C00B5A24D /* CoreDataLogger */,
+				A53C3B14155C16F600B5A24D /* CustomFormatters */,
+				A53C3B27155C177300B5A24D /* CustomLogLevels */,
+				A53C3B36155C182200B5A24D /* DispatchQueueLogger */,
+				A53C3C07155C1A6900B5A24D /* FineGrainedLogging */,
+				A53C3C13155C1ADF00B5A24D /* GlobalLogLevel */,
+				A53C3C29155C1B5E00B5A24D /* LogFileCompressor */,
+				A53C3C3B155C1BFB00B5A24D /* LumberjackFrameworkDesktop */,
+				A53C3C5A155C1EBB00B5A24D /* LumberjackFrameworkMobile */,
+				A53C3C68155C202E00B5A24D /* OverflowTestMac */,
+				A53C3C76155C215D00B5A24D /* PerUserLogLevels */,
+				A53C3C82155C25FB00B5A24D /* RollingTestMac */,
+				A53C3C90155C267900B5A24D /* SQLiteLogger */,
+				A53C3CA0155C271800B5A24D /* Testing */,
+				A53C3CB0155C278200B5A24D /* UniversalApp */,
+				A53C3CBA155C27C700B5A24D /* WebServerIPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A5A89EAB155BAA4600C13526 /* BenchmarkIPhone.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BenchmarkIPhone.app;
+			remoteRef = A5A89EAA155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EB2155BAA4600C13526 /* BenchmarkMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BenchmarkMac.app;
+			remoteRef = A5A89EB1155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EB9155BAA4600C13526 /* ContextFilter.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ContextFilter.app;
+			remoteRef = A5A89EB8155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EC0155BAA4600C13526 /* CoreDataLogger.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CoreDataLogger.app;
+			remoteRef = A5A89EBF155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EC7155BAA4600C13526 /* CustomFormatters.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CustomFormatters.app;
+			remoteRef = A5A89EC6155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89ECE155BAA4600C13526 /* CustomLogLevels.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CustomLogLevels.app;
+			remoteRef = A5A89ECD155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89ED5155BAA4600C13526 /* DispatchQueueLogger.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DispatchQueueLogger.app;
+			remoteRef = A5A89ED4155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EDC155BAA4600C13526 /* FineGrainedLogging.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FineGrainedLogging.app;
+			remoteRef = A5A89EDB155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EE3155BAA4600C13526 /* GlobalLogLevel.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GlobalLogLevel.app;
+			remoteRef = A5A89EE2155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EEA155BAA4600C13526 /* LogFileCompressor.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LogFileCompressor.app;
+			remoteRef = A5A89EE9155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EF2155BAA4600C13526 /* Lumberjack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lumberjack.framework;
+			remoteRef = A5A89EF1155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EF4155BAA4600C13526 /* FmwkTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FmwkTest.app;
+			remoteRef = A5A89EF3155BAA4600C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EFC155BAA4700C13526 /* libLumberjack.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLumberjack.a;
+			remoteRef = A5A89EFB155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89EFE155BAA4700C13526 /* LibTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LibTest.app;
+			remoteRef = A5A89EFD155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89F05155BAA4700C13526 /* OverflowTestMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OverflowTestMac.app;
+			remoteRef = A5A89F04155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89F0C155BAA4700C13526 /* PerUserLogLevels.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = PerUserLogLevels.app;
+			remoteRef = A5A89F0B155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89F13155BAA4700C13526 /* RollingTestMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RollingTestMac.app;
+			remoteRef = A5A89F12155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89F1A155BAA4700C13526 /* SQLiteLogger.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SQLiteLogger.app;
+			remoteRef = A5A89F19155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89F21155BAA4700C13526 /* NonArcTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NonArcTest.app;
+			remoteRef = A5A89F20155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89F28155BAA4700C13526 /* RegisteredLoggingTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RegisteredLoggingTest.app;
+			remoteRef = A5A89F27155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89F2F155BAA4700C13526 /* RegisteredLoggingTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RegisteredLoggingTest.app;
+			remoteRef = A5A89F2E155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89F36155BAA4700C13526 /* UniversalApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UniversalApp.app;
+			remoteRef = A5A89F35155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5A89F3D155BAA4700C13526 /* WebServerIPhone.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = WebServerIPhone.app;
+			remoteRef = A5A89F3C155BAA4700C13526 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXTargetDependency section */
+		A53C3AF5155C15C500B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3AF1155C15BA00B5A24D /* ContextFilter */;
+			targetProxy = A53C3AF4155C15C500B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3B0E155C169F00B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3B0A155C169C00B5A24D /* CoreDataLogger */;
+			targetProxy = A53C3B0D155C169F00B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3B18155C16F900B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3B14155C16F600B5A24D /* CustomFormatters */;
+			targetProxy = A53C3B17155C16F900B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3B2B155C177700B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3B27155C177300B5A24D /* CustomLogLevels */;
+			targetProxy = A53C3B2A155C177700B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3B3A155C182A00B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3B36155C182200B5A24D /* DispatchQueueLogger */;
+			targetProxy = A53C3B39155C182A00B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3C0B155C1A7B00B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3C07155C1A6900B5A24D /* FineGrainedLogging */;
+			targetProxy = A53C3C0A155C1A7B00B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3C17155C1AF400B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3C13155C1ADF00B5A24D /* GlobalLogLevel */;
+			targetProxy = A53C3C16155C1AF400B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3C38155C1BE000B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3C29155C1B5E00B5A24D /* LogFileCompressor */;
+			targetProxy = A53C3C37155C1BE000B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3C48155C1C3000B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3C3B155C1BFB00B5A24D /* LumberjackFrameworkDesktop */;
+			targetProxy = A53C3C47155C1C3000B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3C5F155C1ECC00B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3C5A155C1EBB00B5A24D /* LumberjackFrameworkMobile */;
+			targetProxy = A53C3C5E155C1ECC00B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3C8B155C262100B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3C82155C25FB00B5A24D /* RollingTestMac */;
+			targetProxy = A53C3C8A155C262100B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3C95155C268B00B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3C90155C267900B5A24D /* SQLiteLogger */;
+			targetProxy = A53C3C94155C268B00B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3CA5155C272700B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3CA0155C271800B5A24D /* Testing */;
+			targetProxy = A53C3CA4155C272700B5A24D /* PBXContainerItemProxy */;
+		};
+		A53C3CBF155C27D600B5A24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53C3CBA155C27C700B5A24D /* WebServerIPhone */;
+			targetProxy = A53C3CBE155C27D600B5A24D /* PBXContainerItemProxy */;
+		};
+		A5A89FB6155BEF8100C13526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A89FB2155BEF7900C13526 /* BenchmarkIPhone */;
+			targetProxy = A5A89FB5155BEF8100C13526 /* PBXContainerItemProxy */;
+		};
+		A5A89FC4155BF08700C13526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A89FC0155BF08300C13526 /* BenchmarkMac */;
+			targetProxy = A5A89FC3155BF08700C13526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5A89D05155BAA4500C13526 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D06155BAA4500C13526 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A5A89D07155BAA4500C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D08155BAA4500C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89D09155BAA4500C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D0A155BAA4500C13526 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89D18155BAA4500C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D19155BAA4500C13526 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89D1A155BAA4500C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D1B155BAA4500C13526 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89D2A155BAA4500C13526 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D2B155BAA4500C13526 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A5A89D2C155BAA4500C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D2D155BAA4500C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89D2E155BAA4500C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D2F155BAA4500C13526 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89D40155BAA4500C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D41155BAA4500C13526 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89D42155BAA4500C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D43155BAA4500C13526 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89D50155BAA4500C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D51155BAA4500C13526 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89D52155BAA4500C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D53155BAA4500C13526 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89D5D155BAA4500C13526 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D5E155BAA4500C13526 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A5A89D5F155BAA4500C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D60155BAA4500C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89D61155BAA4500C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D62155BAA4500C13526 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89D68155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D69155BAA4600C13526 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89D6A155BAA4600C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D6B155BAA4600C13526 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89D7B155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D7C155BAA4600C13526 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89D7D155BAA4600C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D7E155BAA4600C13526 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89D8D155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D8E155BAA4600C13526 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89D8F155BAA4600C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89D90155BAA4600C13526 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89D9F155BAA4600C13526 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DA0155BAA4600C13526 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A5A89DA1155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DA2155BAA4600C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89DA3155BAA4600C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DA4155BAA4600C13526 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89DA9155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DAA155BAA4600C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89DB5155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DB6155BAA4600C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89DB7155BAA4600C13526 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DB8155BAA4600C13526 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		A5A89DD8155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DD9155BAA4600C13526 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89DDA155BAA4600C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DDB155BAA4600C13526 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89DEB155BAA4600C13526 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DEC155BAA4600C13526 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A5A89DED155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DEE155BAA4600C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89DEF155BAA4600C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DF0155BAA4600C13526 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89DFA155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DFB155BAA4600C13526 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89DFC155BAA4600C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89DFD155BAA4600C13526 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89E12155BAA4600C13526 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E13155BAA4600C13526 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A5A89E14155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E15155BAA4600C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89E16155BAA4600C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E17155BAA4600C13526 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89E25155BAA4600C13526 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E26155BAA4600C13526 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A5A89E27155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E28155BAA4600C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89E29155BAA4600C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E2A155BAA4600C13526 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89E34155BAA4600C13526 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E35155BAA4600C13526 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A5A89E36155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E37155BAA4600C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89E38155BAA4600C13526 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E39155BAA4600C13526 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A5A89E48155BAA4600C13526 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E49155BAA4600C13526 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A89E4A155BAA4600C13526 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E4B155BAA4600C13526 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A5A89E4C155BAA4600C13526 /* RegisteredLoggingTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A89E4D155BAA4600C13526 /* en */,
+			);
+			name = RegisteredLoggingTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53C3AF2155C15BB00B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = ContextFilter;
+			};
+			name = Debug;
+		};
+		A53C3AF3155C15BB00B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = ContextFilter;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3B0B155C169C00B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = CoreDataLogger;
+			};
+			name = Debug;
+		};
+		A53C3B0C155C169C00B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = CoreDataLogger;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3B15155C16F700B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = CustomFormatters;
+			};
+			name = Debug;
+		};
+		A53C3B16155C16F700B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = CustomFormatters;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3B28155C177300B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = CustomLogLevels;
+			};
+			name = Debug;
+		};
+		A53C3B29155C177300B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = CustomLogLevels;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3B37155C182200B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = DispatchQueueLogger;
+			};
+			name = Debug;
+		};
+		A53C3B38155C182200B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = DispatchQueueLogger;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3C08155C1A6900B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = FineGrainedLogging;
+			};
+			name = Debug;
+		};
+		A53C3C09155C1A6900B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = FineGrainedLogging;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3C14155C1AE000B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = GlobalLogLevel;
+			};
+			name = Debug;
+		};
+		A53C3C15155C1AE000B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = GlobalLogLevel;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3C2A155C1B5E00B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = LogFileCompressor;
+			};
+			name = Debug;
+		};
+		A53C3C2B155C1B5E00B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = LogFileCompressor;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3C3C155C1BFB00B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = LumberjackFrameworkDesktop;
+			};
+			name = Debug;
+		};
+		A53C3C3D155C1BFB00B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = LumberjackFramework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3C5C155C1EBB00B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = LumberjackFrameworkMobile;
+			};
+			name = Debug;
+		};
+		A53C3C5D155C1EBB00B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = LumberjackFramework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3C6A155C202E00B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = OverflowTestMac;
+			};
+			name = Debug;
+		};
+		A53C3C6B155C202E00B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = LumberjackFramework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3C78155C215D00B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = PerUserLogLevels;
+			};
+			name = Debug;
+		};
+		A53C3C79155C215D00B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = LumberjackFramework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3C84155C25FB00B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = RollingTestMac;
+			};
+			name = Debug;
+		};
+		A53C3C85155C25FB00B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = LumberjackFramework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3C92155C267900B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = SQLiteLogger;
+			};
+			name = Debug;
+		};
+		A53C3C93155C267900B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = LumberjackFramework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3CA2155C271800B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Testing;
+			};
+			name = Debug;
+		};
+		A53C3CA3155C271800B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = LumberjackFramework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3CB2155C278200B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = UniversalApp;
+			};
+			name = Debug;
+		};
+		A53C3CB3155C278200B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = LumberjackFramework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A53C3CBC155C27C700B5A24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = WebServerIPhone;
+			};
+			name = Debug;
+		};
+		A53C3CBD155C27C700B5A24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = LumberjackFramework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A5A89CE3155BAA3100C13526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A5A89CE4155BAA3100C13526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		A5A89F42155BAA7F00C13526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Everything;
+			};
+			name = Debug;
+		};
+		A5A89F43155BAA7F00C13526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = Everything;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A5A89FB3155BEF7A00C13526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = BenchmarkIPhone;
+			};
+			name = Debug;
+		};
+		A5A89FB4155BEF7A00C13526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = BenchmarkIPhone;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A5A89FC1155BF08400C13526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = BenchmarkMac;
+			};
+			name = Debug;
+		};
+		A5A89FC2155BF08400C13526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = BenchmarkMac;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53C3B07155C162800B5A24D /* Build configuration list for PBXLegacyTarget "ContextFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3AF2155C15BB00B5A24D /* Debug */,
+				A53C3AF3155C15BB00B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3B13155C16CB00B5A24D /* Build configuration list for PBXLegacyTarget "CoreDataLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3B0B155C169C00B5A24D /* Debug */,
+				A53C3B0C155C169C00B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3B24155C171900B5A24D /* Build configuration list for PBXLegacyTarget "CustomFormatters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3B15155C16F700B5A24D /* Debug */,
+				A53C3B16155C16F700B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3B33155C179D00B5A24D /* Build configuration list for PBXLegacyTarget "CustomLogLevels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3B28155C177300B5A24D /* Debug */,
+				A53C3B29155C177300B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3B3B155C185500B5A24D /* Build configuration list for PBXLegacyTarget "DispatchQueueLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3B37155C182200B5A24D /* Debug */,
+				A53C3B38155C182200B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3C10155C1A9900B5A24D /* Build configuration list for PBXLegacyTarget "FineGrainedLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3C08155C1A6900B5A24D /* Debug */,
+				A53C3C09155C1A6900B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3C26155C1B0D00B5A24D /* Build configuration list for PBXLegacyTarget "GlobalLogLevel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3C14155C1AE000B5A24D /* Debug */,
+				A53C3C15155C1AE000B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3C34155C1B7900B5A24D /* Build configuration list for PBXLegacyTarget "LogFileCompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3C2A155C1B5E00B5A24D /* Debug */,
+				A53C3C2B155C1B5E00B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3C3E155C1C0600B5A24D /* Build configuration list for PBXLegacyTarget "LumberjackFrameworkDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3C3C155C1BFB00B5A24D /* Debug */,
+				A53C3C3D155C1BFB00B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3C5B155C1EBB00B5A24D /* Build configuration list for PBXLegacyTarget "LumberjackFrameworkMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3C5C155C1EBB00B5A24D /* Debug */,
+				A53C3C5D155C1EBB00B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3C69155C202E00B5A24D /* Build configuration list for PBXLegacyTarget "OverflowTestMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3C6A155C202E00B5A24D /* Debug */,
+				A53C3C6B155C202E00B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3C77155C215D00B5A24D /* Build configuration list for PBXLegacyTarget "PerUserLogLevels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3C78155C215D00B5A24D /* Debug */,
+				A53C3C79155C215D00B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3C83155C25FB00B5A24D /* Build configuration list for PBXLegacyTarget "RollingTestMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3C84155C25FB00B5A24D /* Debug */,
+				A53C3C85155C25FB00B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3C91155C267900B5A24D /* Build configuration list for PBXLegacyTarget "SQLiteLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3C92155C267900B5A24D /* Debug */,
+				A53C3C93155C267900B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3CA1155C271800B5A24D /* Build configuration list for PBXLegacyTarget "Testing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3CA2155C271800B5A24D /* Debug */,
+				A53C3CA3155C271800B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3CB1155C278200B5A24D /* Build configuration list for PBXLegacyTarget "UniversalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3CB2155C278200B5A24D /* Debug */,
+				A53C3CB3155C278200B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53C3CBB155C27C700B5A24D /* Build configuration list for PBXLegacyTarget "WebServerIPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53C3CBC155C27C700B5A24D /* Debug */,
+				A53C3CBD155C27C700B5A24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A89CE5155BAA3100C13526 /* Build configuration list for PBXProject "LumberjackMetaProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A89CE3155BAA3100C13526 /* Debug */,
+				A5A89CE4155BAA3100C13526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A89F4C155BAAC300C13526 /* Build configuration list for PBXAggregateTarget "Everything" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A89F42155BAA7F00C13526 /* Debug */,
+				A5A89F43155BAA7F00C13526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A89FBA155BEF9400C13526 /* Build configuration list for PBXLegacyTarget "BenchmarkIPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A89FB3155BEF7A00C13526 /* Debug */,
+				A5A89FB4155BEF7A00C13526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A89FC9155BF0D300C13526 /* Build configuration list for PBXLegacyTarget "BenchmarkMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A89FC1155BF08400C13526 /* Debug */,
+				A5A89FC2155BF08400C13526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5A89D27155BAA4500C13526 /* CoreDataLogger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			path = CoreDataLogger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A5A89D30155BAA4500C13526 /* Log.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5A89D31155BAA4500C13526 /* CocoaBotLog.xcdatamodel */,
+			);
+			currentVersion = A5A89D31155BAA4500C13526 /* CocoaBotLog.xcdatamodel */;
+			path = Log.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5A89CE2155BAA3100C13526 /* Project object */;
+}
